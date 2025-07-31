@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hasil Evaluasi Model</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container-fluid">
+    <h1>Hasil Evaluasi Model</h1>
+    <div class="tabs">
+      <button onclick="loadFolder('LSTM')">LSTM</button>
+      <button onclick="loadFolder('BiLSTM(57)')">BiLSTM(57)</button>
+      <button onclick="loadFolder('4Head(45)')">4Head(45)</button>
+      <button onclick="loadFolder('8Head(46)')">8Head(46)</button>
+    </div>
+    <div id="content" class="content-section"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
