@@ -76,7 +76,7 @@ function loadFolder(folderName) {
     html += `
       <div class="column">
         <h3>Mel Spectrogram - ${prefix}</h3>
-        <img src="${base}${prefix}_Melspectogram.png" alt="Mel Spectrogram ${prefix}">
+        <img src="${base}${prefix}_MelSpectogram.png" alt="Mel Spectrogram ${prefix}">
       </div>`;
   });
   html += `</div>`;
